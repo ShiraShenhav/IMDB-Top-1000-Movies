@@ -1,75 +1,70 @@
-\# IMDb Top 1000 Films Analysis
+# IMDb Top 1000 Films Analysis
+
+![Project Status](https://img.shields.io/badge/status-complete-green)
+
+This project analyzes the IMDb Top 1000 films dataset to uncover patterns in audience ratings, critical reviews, and box office performance. The analysis explores how factors like genre and director influence a film's reception, identifies trends over time, and examines the relationship between artistic quality and commercial success.
+
+### Key Visualization
+![image](https://github.com/user-attachments/assets/81f7f1fd-ddb0-4af9-b85b-cad0bb83a377)
 
 
+## 🎯 Project Overview
 
-This project analyzes the IMDb Top 1000 films dataset, focusing on patterns in audience ratings, critical reviews, and box office performance. The analysis explores how genre and director influence film reception, trends over time, and the relationship between quality and commercial success.
+This analysis seeks to answer several key questions about what makes a film successful, both critically and commercially.
 
+*   **Dataset:** A cleaned dataset of the IMDb Top 1000 films, including title, director, year, genre, IMDb rating, Metascore, and box office gross.
+*   **Data Source:** The original dataset and initial exploration can be found on Kaggle: [IMDb Top 1000 Movies](https://www.kaggle.com/code/shirahazel/imdb-top-1000-movies).
 
+### ❓ Key Questions
+- How do genre and director influence a film’s critical and audience reception?
+- What are the trends in film ratings, critical scores, and box office gross over the decades?
+- What is the relationship between critical/audience reception and box office performance?
+- Are there notable exceptions and outliers to these trends?
 
-\## Project Overview
+## 💡 Summary of Findings
 
+-   ✨ **Genre & Director Influence:** Certain genres (e.g., Western, Mystery, Film-Noir) and renowned directors (e.g., Coppola, Nolan, Jackson) are consistently associated with higher audience ratings and critical scores.
 
+-   📈 **Trends Over Time:** While box office gross has steadily increased over the decades (largely due to inflation and market growth), audience and critical ratings have remained remarkably stable.
 
-\- \*\*Dataset:\*\* IMDb Top 1000 films, including title, director, year, genre, IMDb rating, Metascore, and box office gross.
+-   🤔 **Ratings vs. Revenue:** There is only a weak correlation between high audience/critical scores and box office revenue. Many commercially successful films received lukewarm reviews, while some of the most critically acclaimed films were not high earners.
 
-\- \*\*Key Questions:\*\*
+-   🎬 **Notable Outliers:** Several films defy the general trends. These outliers, including low-rated blockbusters and low-grossing masterpieces, were identified and are summarized in the analysis notebook.
 
-&nbsp; - How do genre and director influence a film’s critical and audience reception?
+## 🛠️ Tech Stack
 
-&nbsp; - What are the trends in film ratings, critical scores, and box office gross over the decades?
+-   **Python 3.x**
+-   **Jupyter Notebook**
+-   **Libraries:** Pandas, NumPy, Matplotlib, Seaborn
 
-&nbsp; - What is the relationship between critical/audience reception and box office performance?
+## 🚀 Getting Started
 
-&nbsp; - Are there notable exceptions to these trends?
+Follow these instructions to set up the project locally and run the analysis.
 
+### Prerequisites
+Make sure you have Python 3 and pip installed on your system.
 
+### Installation
 
-\## Files
+1.  **Clone the repository:**
+    ```sh
+    git clone https://github.com/your-username/your-repository-name.git
+    cd your-repository-name
+    ```
+2.  **Install the required libraries:**
+    *(It is recommended to create a `requirements.txt` file with all dependencies)*
+    ```sh
+    pip install pandas numpy matplotlib seaborn jupyter
+    ```
 
-
-
-\- `imdb\_clean.csv` – Cleaned dataset used for analysis
-
-\- Python code files (`.py`) and/or Jupyter notebooks (`.ipynb`)
-
-\- Project summary (see below)
-
-
-
-\## Summary of Findings
-
-
-
-\- \*\*Genre \& Director Influence:\*\* Certain genres (e.g., Western, Mystery, Film-Noir) and directors (e.g., Coppola, Nolan, Jackson) are associated with higher ratings and critical scores.
-
-\- \*\*Trends Over Time:\*\* Box office gross has increased over the decades, while audience and critical ratings have remained relatively stable.
-
-\- \*\*Ratings vs. Gross:\*\* There is only a weak correlation between audience/critical scores and box office revenue. Some successful films received low ratings, while some highly-rated films earned little revenue.
-
-\- \*\*Exceptions:\*\* Notable outliers were identified and summarized in dedicated tables.
-
-
-
-\## How to Use
-
-
-
-1\. Open the Jupyter notebook or Python scripts for code and analysis.
-
-2\. The cleaned dataset (`imdb\_clean.csv`) is used for all computations.
-
-3\. Visualizations and summary tables are included for reference.
+### Running the Analysis
+1.  Launch Jupyter Notebook from your terminal:
+    ```sh
+    jupyter notebook
+    ```
+2.  In the browser window that opens, navigate to and open the `analysis.ipynb` file (or your notebook's name) to view the code, visualizations, and detailed findings.
 
 
-https://www.kaggle.com/code/shirahazel/imdb-top-1000-movies
+## 👤 Author
 
-\## Author
-
-Shira Shenhav  
-
-2024–2025
-
-
-
-
-
+**Shira Shenhav**
