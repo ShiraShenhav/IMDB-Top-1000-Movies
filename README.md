@@ -61,10 +61,9 @@ This project analyzes the IMDb Top 1000 films dataset, focusing on patterns in a
 3\. Visualizations and summary tables are included for reference.
 
 
+https://www.kaggle.com/code/shirahazel/imdb-top-1000-movies
 
 \## Author
-
-
 
 Shira Shenhav  
 
