@@ -1,0 +1,10 @@
+Research Questions
+
+    How do genre and director influence a film's critical and audience reception?
+    – What are the differences in average IMDb rating and Metascore across genres and directors?
+
+    What are the trends in film ratings, critical scores, and box office gross over the decades?
+    – How have these metrics evolved from the 1950s to the present? Are there identifiable periods of higher or lower critical or commercial success?
+
+    What is the relationship between critical reception (Metascore), audience ratings (IMDb rating), and box office performance?
+    – Do films with higher critical and audience ratings tend to earn higher gross revenue? Are there exceptions to this trend?
